@@ -1,24 +1,26 @@
-body {
-    margin: 0;
-    background-color: rgb(36, 36, 36);
+.parent {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: auto;
+   width: 1400px;
+   position: relative;
+   background-color: #FFFFFF;
 }
 
-main {
-    height: 200vh;
-    margin: 0px;
+.navbar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
 }
 
-.heading {
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    margin: 0px; 
-    /*
-    margin-top: 80px;
-    position: sticky; 
-    top: 30px; 
-    */
-}
+
+
+
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -36,6 +38,42 @@ main {
     padding: 10px;
     display: flex;
     position: relative;
+}
+
+
+body {
+    margin: 0;
+    background: #FFFFFF;
+}
+main {
+    min-height: 100vh;
+    margin: 0px;
+}
+
+
+
+/*
+.logo {
+    display: inline-block;
+}
+
+.nav-links {
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin: 0px; 
+    /*
+    margin-top: 80px;
+    position: sticky; 
+    top: 30px; 
+    
+
+main {
+    height: 200vh;
+    margin: 0px;
 }
 
 .btn {
@@ -65,5 +103,6 @@ main {
     /* transform: scale(1.5);
     transform: rotate(45deg);
     transform: skew(10deg, 10deg);
-    transform: translate(10px, 10px); */
+    transform: translate(10px, 10px); 
 }
+*/
