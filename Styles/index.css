@@ -4,32 +4,38 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    background: #FFFFFF;
+    margin: auto
 }
 nav {
     max-width: 1400px;
     width: 100%;
-    height: 78px;
+    min-height: 78px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 28px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.navlink-color {
+    color: #2F281E;
+}
 .header-container {
     display: flex;
     width: 100%;
+    max-width: 1126px;
+    min-height: 496px;
+    margin-top: 30px;
 
 }
 .header-info {
     display: flex;
     flex-direction: column;
-    max-width: 1126px;
+    max-width: 518px;
+    width: 100%;
+    min-height: 331px;
 }
 .main-title {
     font-family: 'Poppins';
@@ -38,12 +44,43 @@ nav {
     font-size: 44px;
     color: #2F281E;
     max-width: 518px;
+    min-height: 108px;
+    width: 100%;
 }
 .main-info {
     max-width: 458px;
+    min-height: 95px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.btn-start {
+    width: 100%;
+    max-width: 175px;
+    min-height: 53px;
+    border: none;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+.btn-vid {
+    width: 100%;
+    max-width: 161px;
+    min-height: 23px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #FF9900;
+    margin-top: 45px;
 }
 .header-img {
     width: 100%;
+    max-width: 605px;
+    min-height: 496px;
+    margin-top: 30px;
+
 }
 ul {
     font-family: Poppins;
@@ -55,11 +92,11 @@ ul {
     justify-content: space-around;
     max-width: 350px;
     width: 100%;
-    height: 28px;
     color: #2F281E;
 }
 li {
     color: #2F281E;
+    list-style: none;
 }
 .logo {
     width: 185px;
@@ -78,7 +115,6 @@ li {
     margin-right: 14px;
     color: #173A56;
     background-color: #FFFFFF;
-    /* identical to box height */
 }
 
 .btn-sign-up {
@@ -99,11 +135,6 @@ main {
 
 
 /*
-
-
-.nav-links {
-}
-
 
 .btn {
     position: absolute;
