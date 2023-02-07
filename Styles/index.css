@@ -20,12 +20,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .header-container {
     display: flex;
     width: 100%;
 
+}
+.header-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 1126px;
 }
 .main-title {
     font-family: 'Poppins';
@@ -33,14 +37,13 @@ nav {
     font-weight: 700;
     font-size: 44px;
     color: #2F281E;
-    margin-left: 45px;
+    max-width: 518px;
 }
-.header-info {
-    display: flex;
+.main-info {
+    max-width: 458px;
 }
 .header-img {
     width: 100%;
-    max-width: 605px;
 }
 ul {
     font-family: Poppins;
