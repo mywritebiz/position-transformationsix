@@ -6,6 +6,10 @@ body {
     flex-direction: column;
     margin: auto
 }
+main {
+    min-height: 100vh;
+    margin: 0px;
+}
 
 /* start page */
 
@@ -344,28 +348,42 @@ li {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #FFFFFF;
     margin-top: 100px;
     max-width: 1109px;
     min-height: 308px;
     width: 100%
 }
-.link-spacefooter {
+.footer-logo{
+    width: 185px;
+    height: 32px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 50px
+}
+.parent{
+    display: flex;
+}
+.child1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.child2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.link-space {
     margin: 5px
 }
 .link-colorfooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     color: #544837;
     text-decoration: none;
-}
-.footer-linkspacing {
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-end;
-}
-main {
-    min-height: 100vh;
-    margin: 0px;
 }
 .btn-footer {
     width: 131px;
@@ -383,6 +401,11 @@ main {
 
 
 /*
+You need to use flex on the ul tag if you want each link to en up on a separate row. 
+Remember that it is the li tag, not the a tag, that decides where the link ends up 
+on the page and if you want to use flex to move your links, it needs to be on the 
+parent container for the li tag which is the ul tag 
+
 .first {
     /* transform: scale(1.5);
     transform: rotate(45deg);
